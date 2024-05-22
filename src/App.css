@@ -1,0 +1,9 @@
+*{
+  background-color: teal;
+  color: white
+}
+
+Link {
+  color: inherit;
+  text-decoration: none;
+}
