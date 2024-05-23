@@ -29,7 +29,7 @@ const Estudios = () => {
         ></img>
       </Link>
 
-      <Link className="linkCertificado" to="/codo">
+      <Link className="linkCertificado" to="/fullstack">
         <b>2023</b>
         <img
           title="Ver más información"

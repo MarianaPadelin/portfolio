@@ -1,0 +1,9 @@
+.header{
+      background-image:
+                linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+                url(
+'https://res.cloudinary.com/dvxkjikvk/image/upload/v1716474548/Captura_de_pantalla_2024-05-23_112846_k2utmv.png');
+            height: 10rem;
+            width: auto;
+}
+

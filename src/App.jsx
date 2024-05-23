@@ -4,6 +4,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { rutasApp } from "./routes/rutasApp.js";
 import Error from "./components/pages/errors/Error.jsx";
+import Home from './components/pages/Home.jsx';
 function App() {
   return (
     <div className="main">
@@ -14,6 +15,7 @@ function App() {
               <Route key={id} path={path} element={<Element />} />
             ))}
           </Route>
+          <Route path="/" element={<Home />} />
           <Route path="*" element={<Error />} />
         </Routes>
       </BrowserRouter>

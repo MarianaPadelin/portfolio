@@ -10,9 +10,12 @@ function Footer() {
     <Container>
       <Navbar sticky="bottom" expand="md" className="bg-body-primary">
         <Container>
-          <Navbar.Brand href="/">
-            <b style={{color: "black"}}>Mariana Padelin</b>
-          </Navbar.Brand>
+          <Link className="text" to="/">
+            <Navbar.Brand>
+              <b style={{ color: "black" }}>Mariana Padelin</b>
+            </Navbar.Brand>
+          </Link>
+
           <b>Contacto:</b>
 
           <span className="contacto">

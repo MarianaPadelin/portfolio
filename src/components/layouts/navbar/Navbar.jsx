@@ -8,8 +8,13 @@ import { Link } from "react-router-dom";
 function NavbarContainer() {
   return (
     <Navbar expand="md" className="bg-body-primary">
-      <Container className="Container">
-        <Navbar.Brand className="title">Portfolio Mariana Padelin</Navbar.Brand>
+      <Container>
+        <Link className="text" to="/">
+          <Navbar.Brand className="title">
+            Portfolio Mariana Padelin
+          </Navbar.Brand>
+        </Link>
+
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">

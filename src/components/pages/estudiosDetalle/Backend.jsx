@@ -8,6 +8,7 @@ const Backend = () => {
     <div>
       <Card className="card" body>
         Curso de backend terminado en abril 2024 Nota de proyecto final: 10.
+        <br />
         Temas vistos en el curso:
         <ul>
           <li>Creación de API rest</li>
@@ -32,7 +33,9 @@ const Backend = () => {
           <li>Pasarelas de pago con Stripe</li>
           <li>Conexión con frontEnd</li>
         </ul>
-        Todos los temas mencionados están aplicados en el proyecto final, en conjunto con el proyecto final realizado en front end para el curso de React JS
+        Todos los temas mencionados están aplicados en el proyecto final, en
+        conjunto con el proyecto final realizado en front end para el curso de
+        React JS
         <div className="botonesProyectos">
           <Link
             className="link"
