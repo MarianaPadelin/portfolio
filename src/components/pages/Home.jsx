@@ -1,7 +1,15 @@
-import NavbarContainer from "../layouts/navbar/Navbar"
-import Footer from "../layouts/footer/Footer"
-import "./Home.css"
-import { Box, Chip, Divider, List, ListItem, ListItemIcon, ListItemText } from "@mui/material"
+import NavbarContainer from "../layouts/navbar/Navbar";
+import Footer from "../layouts/footer/Footer";
+import "./Home.css";
+import {
+  Box,
+  Chip,
+  Divider,
+  List,
+  ListItem,
+  ListItemIcon,
+  ListItemText,
+} from "@mui/material";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import ArticleIcon from "@mui/icons-material/Article";
 import EmailIcon from "@mui/icons-material/Email";
@@ -36,7 +44,11 @@ const Home = () => {
                 titleAccess="Ver CV"
               />
             </Link>
-            <Link to="./contacto" className="link">
+            <Link
+              to="https://mail.google.com/mail/u/0/#compose"
+              className="link"
+              target="_blank"
+            >
               <EmailIcon
                 sx={{ backgroundColor: "transparent" }}
                 fontSize="large"
@@ -231,6 +243,7 @@ const Home = () => {
           <ListItem>
             <ListItemIcon>
               <img
+                id="express"
                 className="icono"
                 src="https://res.cloudinary.com/dvxkjikvk/image/upload/v1716573796/iconos%20tools/railway_ni9cgm.png"
               />
@@ -280,6 +293,6 @@ const Home = () => {
       <Footer />
     </div>
   );
-}
+};
 
-export default Home
+export default Home;
