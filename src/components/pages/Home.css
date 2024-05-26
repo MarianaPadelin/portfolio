@@ -8,10 +8,16 @@
   background-size: cover;
 }
 
-@media (min-width: 768px){
-      .header{
-            width: 100%
-      }
+@media only screen and (max-width: 768px){
+  .presentacion{
+
+    width: 100vw;
+    font-size: 20px!important;
+    position: absolute;
+    left:0%!important;
+    top:20%!important;
+    border-radius: 0px!important;
+  }
 }
 
 .presentacion {
@@ -83,7 +89,7 @@
   justify-content: center;
   gap: 1rem;
   margin: 2rem;
-  width: 30rem;
+  width: 80vw;
 }
 
 .boxTools {

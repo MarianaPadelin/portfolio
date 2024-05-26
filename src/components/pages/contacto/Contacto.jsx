@@ -11,10 +11,12 @@ const Contacto = () => {
     <div>
       <div className="tituloContacto">
         <h3>Ante cualquier consulta estoy a disposición</h3>
+        <br/>
         <h5>Medios de contacto:</h5>
       </div>
 
       <div className="medios">
+
         <span>
           <EmailOutlinedIcon /> marianapadelin@gmail.com
         </span>

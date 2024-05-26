@@ -23,3 +23,17 @@
     align-items: center;
     gap: 2rem;
 }
+
+@media only screen and (max-width: 768px){
+    .link{
+        width: 60%;
+    }
+    
+    .imgcv{
+        width: 80vw;
+    }
+
+    .info{
+        margin: 1rem;
+    }
+}

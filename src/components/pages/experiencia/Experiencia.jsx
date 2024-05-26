@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom"
 import "./Experiencia.css"
+import { Button } from "react-bootstrap";
 
 const Experiencia = () => {
   return (
@@ -12,6 +13,7 @@ const Experiencia = () => {
         participar de este proyecto con un equipo de diseñadores. Página web
         realizada desde cero, en concordancia con los pedidos de nuestra
         cliente, la dueña de la marca UCHI.
+        A continuación se muestra un screenshot de la landing page:
       </p>
       <Link
         className="link"
@@ -23,6 +25,7 @@ const Experiencia = () => {
           className="certificados"
           src="https://res.cloudinary.com/dvxkjikvk/image/upload/v1716732753/screencapture-uchi-three-vercel-app-2024-05-26-11_11_58_d8auuv.png"
         />
+        <Button variant="secondary">Visitar la página de UCHI</Button>
       </Link>
     </div>
   );
