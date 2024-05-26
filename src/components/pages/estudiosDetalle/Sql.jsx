@@ -11,17 +11,16 @@ const Sql = () => {
         <br />
         Temas vistos en el curso:
         <ul>
-          <li>Configuración de entorno</li>
-          <li>Uso de componentes</li>
-          <li>Hooks: useEstate, useEffect, useContext, useRef</li>
-          <li>Custom hooks</li>
-          <li>React Bootstrap y Material UI</li>
-          <li>Promesas y asincronía. Fetch y axios. </li>
-          <li>Render props, uso de children y map</li>
-          <li>Rendering condicional </li>
-          <li>Routing</li>
-          <li>Formularios con Formik y Yup</li>
-          <li>Firebase, Firestore y Fireauth </li>
+          <li>Lenguaje SQL</li>
+          <li>Consultas SQL</li>
+          <li>Sublenguaje DDL</li>
+          <li>Objetos en DB</li>
+          <li>Vistas</li>
+          <li>Sublenguaje DML</li>
+          <li>Funciones</li>
+          <li>Triggers</li>
+          <li>Sublenguaje TCL</li>
+          <li>Backups</li>
         </ul>
         Todos los temas mencionados están aplicados en el proyecto final
         <div className="botonesProyectos">

@@ -38,7 +38,10 @@ const About = () => {
         interesante todo lo que he aprendido en programación.
       </p>
       <div id="cv">
-        <img src="https://res.cloudinary.com/dvxkjikvk/image/upload/v1716477075/certificados/Captura_de_pantalla_2024-05-23_121006_r2mk70.png" />
+        <Link to="https://drive.google.com/file/d/1HD9NyQgFBy2Xe-3NEBoIXLw89sOPNNi9/view?usp=sharing" target="_blank">
+          <img src="https://res.cloudinary.com/dvxkjikvk/image/upload/v1716477075/certificados/Captura_de_pantalla_2024-05-23_121006_r2mk70.png" />
+        </Link>
+
         <Link to="https://www.linkedin.com/in/mariana-padelin/" target="_blank">
           <Button variant="secondary"> Ir a mi perfil de linkedin</Button>
         </Link>

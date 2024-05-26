@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom"
 import "./Estudios.css"
+import { Button } from "react-bootstrap";
 const Estudios = () => {
   return (
     <div className="estudios">
@@ -10,6 +11,7 @@ const Estudios = () => {
           className="certificados"
           src="https://res.cloudinary.com/dvxkjikvk/image/upload/v1716302673/certificados/663248d96a0b85d346f657d1_1_gegddt.png"
         ></img>
+        <Button variant="secondary"> Ver más </Button>
       </Link>
       <Link className="linkCertificado" to="/react">
         <b>2023</b>
@@ -18,6 +20,7 @@ const Estudios = () => {
           className="certificados"
           src="https://res.cloudinary.com/dvxkjikvk/image/upload/v1716302714/certificados/64b10cd921cc7b0002d16d73_n97twl.png"
         ></img>
+        <Button variant="secondary"> Ver más </Button>
       </Link>
 
       <Link className="linkCertificado" to="/javascript">
@@ -27,6 +30,7 @@ const Estudios = () => {
           className="certificados"
           src="https://res.cloudinary.com/dvxkjikvk/image/upload/v1716302706/certificados/6453725464a952000263adbc_mpmrvh.png"
         ></img>
+        <Button variant="secondary"> Ver más </Button>
       </Link>
 
       <Link className="linkCertificado" to="/fullstack">
@@ -36,6 +40,7 @@ const Estudios = () => {
           className="certificados"
           src="https://res.cloudinary.com/dvxkjikvk/image/upload/v1716303789/certificados/Captura_de_pantalla_2024-05-21_120236_tbm88z.png"
         ></img>
+        <Button variant="secondary"> Ver más </Button>
       </Link>
       <Link className="linkCertificado" to="/sql">
         <b>Actualmente cursando</b>
@@ -44,6 +49,7 @@ const Estudios = () => {
           className="certificados"
           src="https://res.cloudinary.com/dvxkjikvk/image/upload/v1716304555/certificados/Captura_de_pantalla_2024-05-21_121520_lboplz.png"
         ></img>
+        <Button variant="secondary"> Ver más </Button>
       </Link>
     </div>
   );

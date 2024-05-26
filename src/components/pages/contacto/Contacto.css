@@ -1,0 +1,17 @@
+.medios{
+    display: flex;
+    justify-content: space-around;
+    margin: 4rem;
+}
+
+.tituloContacto{
+    margin: 4rem;
+}
+
+.formulario{
+    display: flex;
+    flex-direction: column;
+    margin:4rem;
+    gap: 1rem;
+    
+}

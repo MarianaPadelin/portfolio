@@ -47,7 +47,7 @@ const Backend = () => {
           <Link
             className="link"
             target="_blank"
-            to=">https://github.com/MarianaPadelin/ProyectoFinalBackend.git"
+            to="https://github.com/MarianaPadelin/ProyectoFinalBackend.git"
           >
             <Button variant="secondary"> Repositorio del proyecto final</Button>
           </Link>
