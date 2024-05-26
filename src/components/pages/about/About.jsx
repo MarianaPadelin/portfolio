@@ -14,9 +14,10 @@ const About = () => {
       </div>
 
       <p className="info">
-        Doy clases particulares de apoyo escolar desde 2014. Específicamente en
-        las materias matemática, física, química y biología. Para nivel
-        secundario, CBC y preparación para otros ingresos universitarios.
+        Doy clases particulares desde 2014 para el instituto Clases del Norte. 
+        <br/> 
+        Específicamente en
+        las materias matemática, física, química y biología. Para ingresos universitarios, CBC y nivel secundario.
         <br />
         Preparo alumnos para los exámenes internacionales IGCSE y IB, de las
         materias ya mencionadas.
@@ -24,13 +25,12 @@ const About = () => {
         Soy profesora de danza desde 2017. Doy clases durante la tarde/noche.
         <br />
         En 2023 me adentré en el mundo de la programación, hice diferentes
-        cursos a lo largo del año tanto de front end como de back end.
+        cursos tanto de front end como de back end.
         <br />
         En cuanto a modalidad de trabajo soy muy metódica y extremadamente
         responsable. Aprendo rápidamente.
         <br />
-        Mi objetivo es poder trabajar en el ámbito de programación y poder
-        continuar con mis clases durante la noche.
+        Mi objetivo es poder trabajar en el ámbito de programación.
         <br />
         Principalmente busco un trabajo con estabilidad horaria y salarial.
         <br />

@@ -84,7 +84,7 @@ const Home = () => {
             <ListItemIcon>
               <img
                 className="icono"
-                src="https://res.cloudinary.com/dvxkjikvk/image/upload/v1716573809/iconos%20tools/javascript_ssw83v.png"
+                src="https://res.cloudinary.com/dvxkjikvk/image/upload/v1716748365/iconos%20tools/javascript_icon_130900_b7yysi.png"
               />
             </ListItemIcon>
             <ListItemText primary="JavaScript" />
@@ -93,7 +93,7 @@ const Home = () => {
             <ListItemIcon>
               <img
                 className="icono"
-                src="https://res.cloudinary.com/dvxkjikvk/image/upload/v1716573806/iconos%20tools/git_gev1f2.png"
+                src="https://res.cloudinary.com/dvxkjikvk/image/upload/v1716748449/iconos%20tools/github_git_icon_145985_vfzldz.png"
               />
             </ListItemIcon>
             <ListItemText primary="Git" />
@@ -102,7 +102,7 @@ const Home = () => {
             <ListItemIcon>
               <img
                 className="icono"
-                src="https://res.cloudinary.com/dvxkjikvk/image/upload/v1716573796/iconos%20tools/react_jemrmm.png"
+                src="https://res.cloudinary.com/dvxkjikvk/image/upload/v1716748497/iconos%20tools/react_original_logo_icon_146374_bm5lgl.png"
               />
             </ListItemIcon>
             <ListItemText primary="React JS" />
@@ -117,7 +117,7 @@ const Home = () => {
             <ListItemIcon>
               <img
                 className="icono"
-                src="https://res.cloudinary.com/dvxkjikvk/image/upload/v1716573795/iconos%20tools/node_yjrxzn.png"
+                src="https://res.cloudinary.com/dvxkjikvk/image/upload/v1716748594/iconos%20tools/file_type_node_icon_130301_swtdjd.png"
               />
             </ListItemIcon>
             <ListItemText primary="Node JS" />
@@ -126,7 +126,7 @@ const Home = () => {
             <ListItemIcon>
               <img
                 className="icono"
-                src="https://res.cloudinary.com/dvxkjikvk/image/upload/v1716573795/iconos%20tools/postman_yc7oyc.png"
+                src="https://res.cloudinary.com/dvxkjikvk/image/upload/v1716748702/iconos%20tools/postman_macos_bigsur_icon_189815_hua9th.png"
               />
             </ListItemIcon>
             <ListItemText primary="Postman" />
@@ -135,7 +135,8 @@ const Home = () => {
             <ListItemIcon>
               <img
                 className="icono"
-                src="https://res.cloudinary.com/dvxkjikvk/image/upload/v1716573804/iconos%20tools/express_nrck6e.png"
+                id="express"
+                src="https://res.cloudinary.com/dvxkjikvk/image/upload/v1716748973/iconos%20tools/express_nrck6e.png"
               />
             </ListItemIcon>
             <ListItemText primary="Express" />
@@ -144,7 +145,7 @@ const Home = () => {
             <ListItemIcon>
               <img
                 className="icono"
-                src="https://res.cloudinary.com/dvxkjikvk/image/upload/v1716573800/iconos%20tools/websockets_g8xttx.png"
+                src="https://res.cloudinary.com/dvxkjikvk/image/upload/v1716749257/iconos%20tools/pngwing.com_ffhzyy.png"
               />
             </ListItemIcon>
             <ListItemText primary="Websockets" />
@@ -158,7 +159,7 @@ const Home = () => {
             <ListItemIcon>
               <img
                 className="icono"
-                src="https://res.cloudinary.com/dvxkjikvk/image/upload/v1716573806/iconos%20tools/mongo_ke61ml.png"
+                src="https://res.cloudinary.com/dvxkjikvk/image/upload/v1716749967/iconos%20tools/pngwing.com_4_vhflc8.png"
               />
             </ListItemIcon>
             <ListItemText primary="Mongo DB" />
@@ -167,7 +168,7 @@ const Home = () => {
             <ListItemIcon>
               <img
                 className="icono"
-                src="https://res.cloudinary.com/dvxkjikvk/image/upload/v1716573805/iconos%20tools/firebase_z8zaja.png"
+                src="https://res.cloudinary.com/dvxkjikvk/image/upload/v1716750053/iconos%20tools/pngwing.com_5_losolw.png"
               />
             </ListItemIcon>
             <ListItemText primary="Firebase" />
@@ -176,21 +177,21 @@ const Home = () => {
             <ListItemIcon>
               <img
                 className="icono"
-                src="https://res.cloudinary.com/dvxkjikvk/image/upload/v1716573811/iconos%20tools/mysql_atxmqs.png"
+                src="https://res.cloudinary.com/dvxkjikvk/image/upload/v1716747726/iconos%20tools/mysql_wwybe7.png"
               />
             </ListItemIcon>
             <ListItemText primary="MySQL" />
           </ListItem>
         </List>
         <Divider>
-          <Chip label="ESTÉTICOS" variant="outlined" />
+          <Chip label="ESTILOS" variant="outlined" />
         </Divider>
         <List className="lista">
           <ListItem>
             <ListItemIcon>
               <img
                 className="icono"
-                src="https://res.cloudinary.com/dvxkjikvk/image/upload/v1716573803/iconos%20tools/css_ehd6zs.png"
+                src="https://res.cloudinary.com/dvxkjikvk/image/upload/v1716748251/iconos%20tools/4202020css3htmllogosocialsocialmedia-115668_115633_uczfkc.png"
               />
             </ListItemIcon>
             <ListItemText primary="CSS" />
@@ -199,7 +200,7 @@ const Home = () => {
             <ListItemIcon>
               <img
                 className="icono"
-                src="https://res.cloudinary.com/dvxkjikvk/image/upload/v1716573802/iconos%20tools/bootstrap_y9tqqk.png"
+                src="https://res.cloudinary.com/dvxkjikvk/image/upload/v1716749371/iconos%20tools/pngegg_c1elui.png"
               />
             </ListItemIcon>
             <ListItemText primary="Bootstrap" />
@@ -208,7 +209,7 @@ const Home = () => {
             <ListItemIcon>
               <img
                 className="icono"
-                src="https://res.cloudinary.com/dvxkjikvk/image/upload/v1716573797/iconos%20tools/react-bootstrap_k2it21.png"
+                src="https://res.cloudinary.com/dvxkjikvk/image/upload/v1716749490/iconos%20tools/kisspng-bootstrap-react-software-framework-javascript-fron-5b0f9b1ae420f1.5052388715277494029344_kuc0w9.png"
               />
             </ListItemIcon>
             <ListItemText primary="React Bootstrap" />
@@ -217,7 +218,7 @@ const Home = () => {
             <ListItemIcon>
               <img
                 className="icono"
-                src="https://res.cloudinary.com/dvxkjikvk/image/upload/v1716574843/iconos%20tools/mui_t6eqrc.png"
+                src="https://res.cloudinary.com/dvxkjikvk/image/upload/v1716749990/iconos%20tools/pngwing.com_3_po0gnz.png"
               />
             </ListItemIcon>
             <ListItemText primary="Mui Material" />
@@ -268,7 +269,7 @@ const Home = () => {
             <ListItemIcon>
               <img
                 className="icono"
-                src="https://res.cloudinary.com/dvxkjikvk/image/upload/v1716573798/iconos%20tools/stripe_dqf9vq.png"
+                src="https://res.cloudinary.com/dvxkjikvk/image/upload/v1716747657/iconos%20tools/1685814539stripe-icon-png_fhw5lq.png"
               />
             </ListItemIcon>
             <ListItemText primary="Stripe" />

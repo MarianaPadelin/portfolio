@@ -81,6 +81,11 @@
 
 .icono {
   width: 40px;
+  height: 40px;
+}
+
+#express{
+  border-radius: 50%;
 }
 
 .lista {
