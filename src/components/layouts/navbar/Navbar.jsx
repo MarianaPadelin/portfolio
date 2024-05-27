@@ -8,7 +8,7 @@ import { Link } from "react-router-dom";
 function NavbarContainer() {
   return (
     <Navbar expand="md" className="bg-body-primary">
-      <Container>
+      <Container className="navContainer">
         <Link className="text" to="/">
           <Navbar.Brand className="title">
             Portfolio Mariana Padelin
@@ -17,7 +17,11 @@ function NavbarContainer() {
 
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
-          <Nav className="me-auto">
+          <img
+            className="imgNavbar"
+            src="https://res.cloudinary.com/dvxkjikvk/image/upload/v1716212310/foto_de_perfil_xot1ub.jpg"
+          />
+          <Nav className="me-auto" id="navegadores">
             <Link className="text" to="/estudios">
               Estudios
             </Link>

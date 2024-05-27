@@ -3,7 +3,7 @@ import Navbar from "react-bootstrap/Navbar";
 import { Link } from "react-router-dom";
 import WhatsAppIcon from "@mui/icons-material/WhatsApp";
 import EmailOutlinedIcon from "@mui/icons-material/EmailOutlined";
-import "./Footer.css"
+import "./Footer.css";
 
 function Footer() {
   return (
@@ -19,7 +19,13 @@ function Footer() {
           <b>Contacto:</b>
 
           <span className="contacto">
-            <EmailOutlinedIcon /> marianapadelin@gmail.com
+            <Link
+              to="https://mail.google.com/mail/?view=cm&to=marianapadelin@gmail.com"
+              className="text"
+              target="_blank"
+            >
+              <EmailOutlinedIcon /> marianapadelin@gmail.com
+            </Link>
           </span>
           <Link
             to="https://wa.me/541169550440?text=Buenos días. Vi tu portfolio y estoy interesado en información sobre"

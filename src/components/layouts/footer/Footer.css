@@ -1,13 +1,17 @@
 .link{
     color: white;
     text-decoration: none;
-
 }
 
 .contacto{
     display: flex;
     gap:1vw;
     justify-content: space-evenly;
+}
+
+
+.containerFooter{
+    padding: 3vh;
 }
 
 @media only screen and (max-width: 768px){

@@ -9,6 +9,7 @@ import {
   ListItem,
   ListItemIcon,
   ListItemText,
+  Paper,
 } from "@mui/material";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import ArticleIcon from "@mui/icons-material/Article";
@@ -45,7 +46,7 @@ const Home = () => {
               />
             </Link>
             <Link
-              to="https://mail.google.com/mail/u/0/#compose"
+              to="https://mail.google.com/mail/?view=cm&to=marianapadelin@gmail.com"
               className="link"
               target="_blank"
             >
@@ -70,7 +71,10 @@ const Home = () => {
           </span>
         </div>
       </div>
-      <NavbarContainer />
+
+      <Paper elevation={10}>
+        <NavbarContainer />
+      </Paper>
 
       <div className="subtitle">
         <i>

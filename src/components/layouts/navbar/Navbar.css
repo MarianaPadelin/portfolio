@@ -1,4 +1,7 @@
-
+.navContainer{
+    display: flex;
+    justify-content: space-evenly;
+}
 
 .text{
     color: white;
@@ -10,7 +13,29 @@
     font-weight: 700;
 }
 
-.me-auto{
-    gap: 3vw;
+.navbar-collapse{
+    justify-content: space-between;
+    align-items: center;
 }
 
+.me-auto{
+    gap: 3vw;
+    align-items: center;
+ 
+
+}
+
+#navegadores{
+    margin-right: 0!important;
+}
+
+
+
+.imgNavbar{
+    width: 80px;
+    border-radius: 50%;
+    border-style: solid;
+    border-color: black;
+    margin-left: 2vw;
+    margin-right: 2vw;
+}

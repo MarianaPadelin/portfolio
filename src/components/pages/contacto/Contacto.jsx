@@ -5,7 +5,7 @@ import "./Contacto.css"
 
 const Contacto = () => {
   return (
-    <div>
+    <div style={{ minHeight: "100vh" }}>
       <div className="tituloContacto">
         <h3>Ante cualquier consulta estoy a disposición</h3>
         <br />
@@ -14,7 +14,7 @@ const Contacto = () => {
 
       <div className="medios">
         <Link
-          to="https://mail.google.com/mail/u/0/#compose"
+          to="https://mail.google.com/mail/?view=cm&to=marianapadelin@gmail.com"
           className="link"
           target="_blank"
         >
@@ -33,7 +33,6 @@ const Contacto = () => {
           </span>
         </Link>
       </div>
-
     </div>
   );
 };
