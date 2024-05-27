@@ -1,4 +1,3 @@
-
 import { Button } from "react-bootstrap";
 import "./About.css"
 import { Link } from "react-router-dom";
@@ -22,7 +21,7 @@ const About = () => {
         Preparo alumnos para los exámenes internacionales IGCSE y IB, de las
         materias ya mencionadas.
         <br />
-        Soy profesora de danza desde 2017. Doy clases durante la tarde/noche.
+        Soy profesora de danza desde 2017. 
         <br />
         En 2023 me adentré en el mundo de la programación, hice diferentes
         cursos tanto de front end como de back end.

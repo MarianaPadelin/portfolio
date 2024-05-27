@@ -9,7 +9,7 @@ function NavbarContainer() {
   return (
     <Navbar expand="md" className="bg-body-primary">
       <Container className="navContainer">
-        <Link className="text" to="/">
+        <Link className="text" to="/" title="Ir a home">
           <Navbar.Brand className="title">
             Portfolio Mariana Padelin
           </Navbar.Brand>

@@ -10,7 +10,7 @@ function Footer() {
     <Container>
       <Navbar sticky="bottom" expand="md" className="bg-body-primary">
         <Container className="containerFooter">
-          <Link className="text" to="/">
+          <Link className="text" to="/" title="Ir a home">
             <Navbar.Brand>
               <b style={{ color: "black" }}>Mariana Padelin</b>
             </Navbar.Brand>
@@ -23,6 +23,7 @@ function Footer() {
               to="https://mail.google.com/mail/?view=cm&to=marianapadelin@gmail.com"
               className="text"
               target="_blank"
+              title="Enviar email"
             >
               <EmailOutlinedIcon /> marianapadelin@gmail.com
             </Link>
@@ -31,6 +32,7 @@ function Footer() {
             to="https://wa.me/541169550440?text=Buenos días. Vi tu portfolio y estoy interesado en información sobre"
             target="_blank"
             className="link"
+            title="Enviar whatsapp"
           >
             <span className="contacto">
               <WhatsAppIcon />
