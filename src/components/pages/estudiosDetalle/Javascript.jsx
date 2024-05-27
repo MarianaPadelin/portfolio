@@ -5,7 +5,7 @@ import { Button } from "react-bootstrap";
 
 const Javascript = () => {
   return (
-    <div>
+    <div className="estudioDetalle">
       <Card className="card" body>
         Curso de javascript terminado en abril 2023. Nota de proyecto final: 9.
         <br />

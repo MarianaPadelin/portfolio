@@ -17,6 +17,7 @@ const Contacto = () => {
           to="https://mail.google.com/mail/?view=cm&to=marianapadelin@gmail.com"
           className="link"
           target="_blank"
+          title="Enviar email"
         >
           <span>
             <EmailOutlinedIcon /> marianapadelin@gmail.com
@@ -26,6 +27,7 @@ const Contacto = () => {
           to="https://wa.me/541169550440?text=Buenos días. Vi tu portfolio y estoy interesado en información sobre"
           target="_blank"
           className="link"
+          title="Enviar whatsapp"
         >
           <span>
             <WhatsAppIcon />

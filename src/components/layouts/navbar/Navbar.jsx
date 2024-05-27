@@ -12,15 +12,15 @@ function NavbarContainer() {
         <Link className="text" to="/" title="Ir a home">
           <Navbar.Brand className="title">
             Portfolio Mariana Padelin
+            <img
+              className="imgNavbar"
+              src="https://res.cloudinary.com/dvxkjikvk/image/upload/v1716212310/foto_de_perfil_xot1ub.jpg"
+            />
           </Navbar.Brand>
         </Link>
 
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
-          <img
-            className="imgNavbar"
-            src="https://res.cloudinary.com/dvxkjikvk/image/upload/v1716212310/foto_de_perfil_xot1ub.jpg"
-          />
           <Nav className="me-auto" id="navegadores">
             <Link className="text" to="/estudios">
               Estudios

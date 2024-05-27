@@ -5,7 +5,7 @@ import { Button } from "react-bootstrap";
 
 const Backend = () => {
   return (
-    <div>
+    <div className="estudioDetalle">
       <Card className="card" body>
         Curso de backend terminado en abril 2024 Nota de proyecto final: 10.
         <br />

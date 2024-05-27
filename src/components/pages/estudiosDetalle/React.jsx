@@ -6,7 +6,7 @@ import { Button } from "react-bootstrap";
 
 const React = () => {
   return (
-    <div>
+    <div className="estudioDetalle">
       <Card className="card" body>
         Curso de React JS terminado en julio 2023. Nota de proyecto final: 10.
         <br />

@@ -5,10 +5,10 @@ import { Button } from "react-bootstrap";
 
 const Codo_fullstack = () => {
   return (
-    <div>
+    <div className="estudioDetalle">
       <Card className="card" body>
         Curso de React JS terminado en julio 2023. Nota de proyecto final: 10.
-        <br/>
+        <br />
         Temas vistos en el curso:
         <ul>
           <li>HTML</li>
@@ -17,7 +17,8 @@ const Codo_fullstack = () => {
           <li>Java</li>
           <li>SQL</li>
         </ul>
-        Los temas mencionados relacionados al front end están aplicados en el proyecto final
+        Los temas mencionados relacionados al front end están aplicados en el
+        proyecto final
         <div className="botonesProyectos">
           <Link
             className="link"
