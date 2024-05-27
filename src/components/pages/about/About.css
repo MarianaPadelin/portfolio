@@ -24,6 +24,10 @@
     gap: 2rem;
 }
 
+.imgcv{
+    width: 50vw;
+}
+
 @media only screen and (max-width: 768px){
     .link{
         width: 60%;

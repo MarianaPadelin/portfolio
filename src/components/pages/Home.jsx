@@ -28,6 +28,7 @@ const Home = () => {
             <Link
               className="link"
               to="https://www.linkedin.com/in/mariana-padelin/"
+              target="_blank"
             >
               <LinkedInIcon
                 sx={{ backgroundColor: "transparent" }}
@@ -37,7 +38,8 @@ const Home = () => {
             </Link>
             <Link
               className="link"
-              to="https://drive.google.com/file/d/1HD9NyQgFBy2Xe-3NEBoIXLw89sOPNNi9/view?usp=sharing"
+              to="https://drive.google.com/file/d/1uPcK8sRW6dNEK9uvc60A0qNnEhS8iFYl/view?usp=sharing"
+              target="_blank"
             >
               <ArticleIcon
                 sx={{ backgroundColor: "transparent" }}
