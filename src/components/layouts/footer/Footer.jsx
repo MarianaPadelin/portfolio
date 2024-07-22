@@ -6,6 +6,7 @@ import EmailOutlinedIcon from "@mui/icons-material/EmailOutlined";
 import "./Footer.css";
 
 function Footer() {
+  
   return (
     <Container>
       <Navbar sticky="bottom" expand="md" className="bg-body-primary">

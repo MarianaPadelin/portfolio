@@ -1,6 +1,6 @@
 import { Outlet } from "react-router-dom";
 import NavbarContainer from "./navbar/Navbar.jsx";
-import Footer from "./footer/Footer.jsx";
+// import Footer from "./footer/Footer.jsx";
 import { Paper } from "@mui/material";
 
 const Layouts = () => {
@@ -12,7 +12,7 @@ const Layouts = () => {
 
       <Outlet />
 
-      <Footer />
+      {/* <Footer /> */}
     </>
   );
 };

@@ -1,3 +1,10 @@
+// to do:
+// chequear versión móvil
+// ver fuente de toda la página
+
+
+
+
 import './App.css'
 import Layouts from "./components/layouts/Layouts.jsx"
 import "bootstrap/dist/css/bootstrap.min.css";

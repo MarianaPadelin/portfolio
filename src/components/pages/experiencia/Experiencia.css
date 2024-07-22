@@ -2,7 +2,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 3rem;
+    margin: 5vh 0;
     gap: 1rem;
 }
 
@@ -11,4 +11,17 @@
     flex-direction: column;
     align-items: center;
     gap: 1rem;
+}
+
+
+.screenshots{
+    width: 50vw;
+}
+
+
+@media only screen and (max-width: 768px){
+   .screenshots{
+    width: 70vw;
+   } 
+   
 }

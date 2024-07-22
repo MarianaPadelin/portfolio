@@ -1,18 +1,27 @@
-.estudios{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap:3rem;
+.estudios {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 3rem;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 3vh;
+  margin: 3vh;
 }
 
-.linkCertificado{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    color: white;
-    text-decoration: none;
+.linkCertificado {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+  text-decoration: none;
 }
 
-.certificados{
-    width: 80vw;
+.certificados {
+  width: 60vw;
+}
+
+@media only screen and (max-width: 768px) {
+  .certificados {
+    width: 100%;
+  }
 }

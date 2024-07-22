@@ -1,6 +1,7 @@
 import { Button } from "react-bootstrap";
 import "./About.css"
 import { Link } from "react-router-dom";
+import ScrollToTop from "react-scroll-to-top";
 
 const About = () => {
   return (
@@ -39,12 +40,12 @@ const About = () => {
       <div id="cv">
         <Link
           className="link"
-          to="https://drive.google.com/file/d/1uPcK8sRW6dNEK9uvc60A0qNnEhS8iFYl/view?usp=sharing"
+          to="https://drive.google.com/file/d/19kaODTMbjLnP91uq910mlqjlflQcyjd_/view?usp=sharing"
           target="_blank"
         >
           <img
             className="imgcv"
-            src="https://res.cloudinary.com/dvxkjikvk/image/upload/v1716822013/certificados/CV_mayo_2024_fyjlte.png"
+            src="https://res.cloudinary.com/dvxkjikvk/image/upload/v1721593925/certificados/CV_mayo_2024_nxvata.png"
           />
         </Link>
 
@@ -52,6 +53,7 @@ const About = () => {
           <Button variant="secondary"> Ir a mi perfil de linkedin</Button>
         </Link>
       </div>
+      <ScrollToTop smooth />
     </div>
   );
 }

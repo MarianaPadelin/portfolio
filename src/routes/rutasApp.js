@@ -8,6 +8,7 @@ import Javascript from "../components/pages/estudiosDetalle/Javascript.jsx";
 import Codo_fullstack from "../components/pages/estudiosDetalle/Codo_fullstack.jsx";
 import Sql from "../components/pages/estudiosDetalle/Sql.jsx";
 import About from "../components/pages/about/About.jsx";
+import Herramientas from "../components/pages/herramientas/Herramientas.jsx";
 
 export const rutasApp = [
   // {
@@ -19,6 +20,11 @@ export const rutasApp = [
     id: "estudios",
     path: "/estudios",
     Element: Estudios,
+  },
+  {
+    id: "herramientas",
+    path: "/herramientas",
+    Element: Herramientas,
   },
   {
     id: "experiencia",

@@ -7,7 +7,7 @@ import { Link } from "react-router-dom";
 
 function NavbarContainer() {
   return (
-    <Navbar expand="md" className="bg-body-primary">
+    <Navbar expand="md" className="nv-bg" >
       <Container className="navContainer">
         <Link className="text" to="/" title="Ir a home">
           <Navbar.Brand className="title">
@@ -25,6 +25,9 @@ function NavbarContainer() {
             <Link className="text" to="/estudios">
               Estudios
             </Link>
+            <Link className="text" to="/herramientas">
+              Herramientas
+            </Link>
             <Link className="text" to="/experiencia">
               Experiencia
             </Link>
@@ -34,18 +37,16 @@ function NavbarContainer() {
             <Link className="text" to="/contacto">
               Contacto
             </Link>
-
-            {/* <NavDropdown title="Dropdown" id="basic-nav-dropdown">
-              <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.2">
-                Another action
-              </NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
-              <NavDropdown.Divider />
-              <NavDropdown.Item href="#action/3.4">
-                Separated link
-              </NavDropdown.Item>
-            </NavDropdown> */}
+            {/* <img
+              className="icono"
+              src="https://res.cloudinary.com/dvxkjikvk/image/upload/v1716835609/iconos%20tools/pngwing.com_6_fio2zz.png"
+              title="Español"
+            />
+            <img
+              className="icono"
+              src="https://res.cloudinary.com/dvxkjikvk/image/upload/v1716835607/iconos%20tools/pngwing.com_7_wmfy4t.png"
+              title="English"
+            /> */}
           </Nav>
         </Navbar.Collapse>
       </Container>
