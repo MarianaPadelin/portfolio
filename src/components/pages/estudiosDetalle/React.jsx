@@ -32,7 +32,7 @@ const React = () => {
           target="_blank"
           to="https://github.com/MarianaPadelin/ProyectoFinalFrontend.git"
         >
-          <Button variant="secondary"> Repositorio del proyecto final</Button>
+          <Button variant="light"> Repositorio del proyecto final</Button>
         </Link>
       </div>
       <Link className="link" to="../estudios">

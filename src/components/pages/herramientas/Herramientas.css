@@ -1,5 +1,32 @@
-.fondo{
-    background-color: rgba(0, 0, 0, 0.5);
-    padding: 3vh;
-    margin: 3vh;
+.fondo {
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 3vh;
+  margin: 3vh;
+}
+
+.lista {
+  display: grid;
+  grid-template-rows: auto;
+  grid-template-columns: repeat(1, 60vw);
+  justify-content: center;
+  margin: 2rem;
+  width: 60vw;
+}
+
+@media only screen and (min-width: 768px) {
+  .lista {
+    grid-template-rows: auto;
+    grid-template-columns: repeat(3, 20vw);
+  }
+}
+
+/* list item */
+.css-10hburv-MuiTypography-root {
+  font-size: 2rem !important;
+}
+
+/* chip */
+.css-1jzq0dw-MuiChip-label {
+  font-size: 1.5rem !important;
+  margin: 1vw;
 }

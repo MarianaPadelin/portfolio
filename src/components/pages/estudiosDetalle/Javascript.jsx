@@ -31,7 +31,7 @@ const Javascript = () => {
           target="_blank"
           to="https://github.com/MarianaPadelin/ProyectoFinal.github.io.git"
         >
-          <Button variant="secondary"> Repositorio del proyecto final</Button>
+          <Button variant="light"> Repositorio del proyecto final</Button>
         </Link>
       </div>
       <Link className="link" to="../estudios">

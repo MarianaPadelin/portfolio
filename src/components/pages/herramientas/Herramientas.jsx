@@ -7,7 +7,7 @@ import {
   ListItemIcon,
   ListItemText,
 } from "@mui/material";
-import "./Herramientas.css"
+import "./Herramientas.css";
 import ScrollToTop from "react-scroll-to-top";
 
 const Herramientas = () => {
@@ -15,13 +15,13 @@ const Herramientas = () => {
     <div className="fondo">
       <div className="subtitle">
         <i>
-          <h3>HERRAMIENTAS UTILIZADAS:</h3>
+          <h1>HERRAMIENTAS UTILIZADAS:</h1>
         </i>
       </div>
-    
+
       <Box className="boxTools">
         <Divider>
-          <Chip label="BÁSICOS" variant="outlined" />
+          <Chip label="FRONTEND" variant="outlined" />
         </Divider>
         <List className="lista">
           <ListItem>
@@ -42,15 +42,7 @@ const Herramientas = () => {
             </ListItemIcon>
             <ListItemText primary="JavaScript" />
           </ListItem>
-          <ListItem>
-            <ListItemIcon>
-              <img
-                className="icono"
-                src="https://res.cloudinary.com/dvxkjikvk/image/upload/v1716748449/iconos%20tools/github_git_icon_145985_vfzldz.png"
-              />
-            </ListItemIcon>
-            <ListItemText primary="Git" />
-          </ListItem>
+
           <ListItem>
             <ListItemIcon>
               <img
@@ -59,6 +51,42 @@ const Herramientas = () => {
               />
             </ListItemIcon>
             <ListItemText primary="React JS" />
+          </ListItem>
+          <ListItem>
+            <ListItemIcon>
+              <img
+                className="icono"
+                src="https://res.cloudinary.com/dvxkjikvk/image/upload/v1716748251/iconos%20tools/4202020css3htmllogosocialsocialmedia-115668_115633_uczfkc.png"
+              />
+            </ListItemIcon>
+            <ListItemText primary="CSS" />
+          </ListItem>
+          <ListItem>
+            <ListItemIcon>
+              <img
+                className="icono"
+                src="https://res.cloudinary.com/dvxkjikvk/image/upload/v1716749371/iconos%20tools/pngegg_c1elui.png"
+              />
+            </ListItemIcon>
+            <ListItemText primary="Bootstrap" />
+          </ListItem>
+          <ListItem>
+            <ListItemIcon>
+              <img
+                className="icono"
+                src="https://res.cloudinary.com/dvxkjikvk/image/upload/v1716749490/iconos%20tools/kisspng-bootstrap-react-software-framework-javascript-fron-5b0f9b1ae420f1.5052388715277494029344_kuc0w9.png"
+              />
+            </ListItemIcon>
+            <ListItemText primary="React Bootstrap" />
+          </ListItem>
+          <ListItem>
+            <ListItemIcon>
+              <img
+                className="icono"
+                src="https://res.cloudinary.com/dvxkjikvk/image/upload/v1716749990/iconos%20tools/pngwing.com_3_po0gnz.png"
+              />
+            </ListItemIcon>
+            <ListItemText primary="Mui Material" />
           </ListItem>
         </List>
 
@@ -136,51 +164,20 @@ const Herramientas = () => {
             <ListItemText primary="MySQL" />
           </ListItem>
         </List>
-        <Divider>
-          <Chip label="ESTILOS" variant="outlined" />
-        </Divider>
-        <List className="lista">
-          <ListItem>
-            <ListItemIcon>
-              <img
-                className="icono"
-                src="https://res.cloudinary.com/dvxkjikvk/image/upload/v1716748251/iconos%20tools/4202020css3htmllogosocialsocialmedia-115668_115633_uczfkc.png"
-              />
-            </ListItemIcon>
-            <ListItemText primary="CSS" />
-          </ListItem>
-          <ListItem>
-            <ListItemIcon>
-              <img
-                className="icono"
-                src="https://res.cloudinary.com/dvxkjikvk/image/upload/v1716749371/iconos%20tools/pngegg_c1elui.png"
-              />
-            </ListItemIcon>
-            <ListItemText primary="Bootstrap" />
-          </ListItem>
-          <ListItem>
-            <ListItemIcon>
-              <img
-                className="icono"
-                src="https://res.cloudinary.com/dvxkjikvk/image/upload/v1716749490/iconos%20tools/kisspng-bootstrap-react-software-framework-javascript-fron-5b0f9b1ae420f1.5052388715277494029344_kuc0w9.png"
-              />
-            </ListItemIcon>
-            <ListItemText primary="React Bootstrap" />
-          </ListItem>
-          <ListItem>
-            <ListItemIcon>
-              <img
-                className="icono"
-                src="https://res.cloudinary.com/dvxkjikvk/image/upload/v1716749990/iconos%20tools/pngwing.com_3_po0gnz.png"
-              />
-            </ListItemIcon>
-            <ListItemText primary="Mui Material" />
-          </ListItem>
-        </List>
+    
         <Divider>
           <Chip label="DEPLOYS" variant="outlined" />
         </Divider>
         <List className="lista">
+          <ListItem>
+            <ListItemIcon>
+              <img
+                className="icono"
+                src="https://res.cloudinary.com/dvxkjikvk/image/upload/v1716748449/iconos%20tools/github_git_icon_145985_vfzldz.png"
+              />
+            </ListItemIcon>
+            <ListItemText primary="Git" />
+          </ListItem>
           <ListItem>
             <ListItemIcon>
               <img
@@ -233,6 +230,6 @@ const Herramientas = () => {
       <ScrollToTop smooth />
     </div>
   );
-}
+};
 
-export default Herramientas
+export default Herramientas;

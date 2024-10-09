@@ -7,7 +7,7 @@ import { Link } from "react-router-dom";
 
 function NavbarContainer() {
   return (
-    <Navbar expand="md" className="nv-bg" >
+    <Navbar expand="md" className="nv-bg">
       <Container className="navContainer">
         <Link className="text" to="/" title="Ir a home">
           <Navbar.Brand className="title">
@@ -22,19 +22,19 @@ function NavbarContainer() {
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto" id="navegadores">
-            <Link className="text" to="/estudios">
+            <Link className="text navIt" to="/estudios">
               Estudios
             </Link>
-            <Link className="text" to="/herramientas">
+            <Link className="text navIt" to="/herramientas">
               Herramientas
             </Link>
-            <Link className="text" to="/experiencia">
+            <Link className="text navIt" to="/experiencia">
               Experiencia
             </Link>
-            <Link className="text" to="/about">
+            <Link className="text navIt" to="/about">
               Sobre mi
             </Link>
-            <Link className="text" to="/contacto">
+            <Link className="text navIt" to="/contacto">
               Contacto
             </Link>
             {/* <img

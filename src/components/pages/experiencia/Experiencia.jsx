@@ -2,103 +2,148 @@ import { Link } from "react-router-dom";
 import "./Experiencia.css";
 import { Button } from "react-bootstrap";
 import ScrollToTop from "react-scroll-to-top";
+import CardGroup from "react-bootstrap/CardGroup";
+import Card from "react-bootstrap/Card";
+import ButtonGroup from "react-bootstrap/ButtonGroup";
 
+// import ToggleButton from "@mui/material/ToggleButton";
+import Navbar from "react-bootstrap/Navbar";
 const Experiencia = () => {
   return (
     <div className="experiencia">
-      <h3><i>PROYECTOS DE REALIZACIÓN PROPIA</i></h3>
-      <h4>PROYECTO REAL - UCHI</h4>
-      <div className="info">
-        <p>
-          Trabajo freelance de front end realizado como única desarrolladora
-          web, en conjunto con diseñadores y UX/UI. A partir de terminar el
-          curso de React JS con la mejor calificación, desde Coderhouse me
-          permitieron participar de este proyecto con un equipo de diseñadores.
-          <br />
-          Página web realizada desde cero, responsive, en concordancia con los
-          pedidos de nuestra cliente, la dueña de la marca UCHI.
-        </p>
-      </div>
-      <h5>A continuación se muestra un screenshot de la landing page:</h5>
-      <Link
-        className="link"
-        to="https://uchi-three.vercel.app/"
-        target="_blank"
-      >
-        <img
-          title="Ir a la página"
-          className="screenshots"
-          src="https://res.cloudinary.com/dvxkjikvk/image/upload/v1716732753/screencapture-uchi-three-vercel-app-2024-05-26-11_11_58_d8auuv.png"
-        />
-        <Button variant="secondary">Visitar la página de UCHI</Button>
-      </Link>
-      <Link
-        className="link"
-        to="https://github.com/MarianaPadelin/uchi.git"
-        target="_blank"
-      >
-        <Button variant="secondary"> Ver el código de la página</Button>
-      </Link>
-      <br />
-      <h4>E-COMMERCE - MGGM </h4>
-      <div className="info">
-        <p>
-          Trabajo de e-commerce realizado en primera instancia como proyecto
-          final del curso React JS en coderhouse.
-          <br />
-          Luego retomado en el curso de Backend en coderhouse, agregándole
-          inicio de sesión, permisos para administrador, funcionalidad con API
-          REST propia, chat en vivo, proceso de compra completo.
-          <br />
-          Sistema de envío de mails para tickets y notificaciones, etc.
-        </p>
-      </div>
-      <h5>A continuación se muestra un screenshot de la landing page:</h5>
+      <h1 className="titles">
+        <i>PROYECTOS DE REALIZACIÓN PROPIA</i>
+      </h1>
+      <CardGroup>
+        {/*------ UCHI ------ */}
+        <Card>
+          <Card.Img
+            variant="top"
+            src="https://res.cloudinary.com/dvxkjikvk/image/upload/v1716732753/screencapture-uchi-three-vercel-app-2024-05-26-11_11_58_d8auuv.png"
+            title="UCHI"
+          />
+          <Card.Body>
+            <Card.Title>
+              PROYECTO FREELANCE - UCHI ARTICULOS JAPONESES
+            </Card.Title>
+            <Navbar expand="xxxl" className="nv-bg navbar-dark cardtoggle">
+              <Navbar.Toggle aria-controls="basic-navbar-nav" />
 
-      <img
-        title="Ir a la página"
-        className="screenshots"
-        src="https://res.cloudinary.com/dvxkjikvk/image/upload/v1716750307/screencapture-proyectofinalfrontend-production-b4ee-up-railway-app-2024-05-26-16_04_06_qw0i2m.png"
-      />
+              <Navbar.Collapse id="basic-navbar-nav">
+                <Card.Text>
+                  Trabajo freelance de front end realizado como única
+                  desarrolladora web, en conjunto con diseñadores y UX/UI. A
+                  partir de terminar el curso de React JS con la mejor
+                  calificación, desde Coderhouse me permitieron participar de
+                  este proyecto con un equipo de diseñadores. Página web
+                  realizada desde cero, responsive, en concordancia con los
+                  pedidos de nuestra cliente, la dueña de la marca UCHI.
+                </Card.Text>
+              </Navbar.Collapse>
+            </Navbar>
+          </Card.Body>
 
-      <Link
-        className="link"
-        to="https://github.com/MarianaPadelin/ProyectoFinalFrontend.git"
-        target="_blank"
-      >
-        <Button variant="secondary">
-          Ver el código de frontend de la página
-        </Button>
-      </Link>
-      <Link
-        to="https://github.com/MarianaPadelin/ProyectoFinalBackend.git"
-        className="link"
-        target="_blank"
-      >
-        <Button variant="secondary">
-          Ver el código de backend de la página
-        </Button>
-      </Link>
+          <ButtonGroup>
+            <Link
+              className="link"
+              to="https://uchi-three.vercel.app/"
+              target="_blank"
+            >
+              <Button variant="light">Visitar la página de UCHI</Button>
+            </Link>
+            <Link
+              className="link"
+              to="https://github.com/MarianaPadelin/uchi.git"
+              target="_blank"
+            >
+              <Button variant="light">
+                Ver el código de la página
+              </Button>
+            </Link>
+          </ButtonGroup>
+        </Card>
+        {/*------ MGGM ------ */}
+        <Card>
+          <Card.Img
+            variant="top"
+            src="https://res.cloudinary.com/dvxkjikvk/image/upload/v1716750307/screencapture-proyectofinalfrontend-production-b4ee-up-railway-app-2024-05-26-16_04_06_qw0i2m.png"
+            title="MGGM"
+          />
+          <Card.Body>
+            <Card.Title>PROYECTO E-COMMERCE FULLSTACK - MGGM</Card.Title>
+            <Navbar expand="xxxl" className="nv-bg navbar-dark cardtoggle">
+              <Navbar.Toggle aria-controls="basic-navbar-nav" />
 
-      <h4> PORTFOLIO - PROYECTO PERSONAL </h4>
-      <div className="info">
-        <p>
-          Página responsive hecha en React JS, para consolidar lo aprendido y
-          tener mis estudios y experiencias en un sólo lugar
-        </p>
-      </div>
-      <img
-        title="Ir a la página"
-        className="screenshots"
-        src="https://res.cloudinary.com/dvxkjikvk/image/upload/v1721688482/desarrolloWeb/Captura_de_pantalla_2024-07-22_194726_zu9v1o.png"
-      />
-      <Link
-        className="link"
-        to="https://github.com/MarianaPadelin/portfolio.git"
-        target="_blank"
-      >
-        <Button variant="secondary">Ver el código de esta página</Button>
-      </Link>
+              <Navbar.Collapse id="basic-navbar-nav">
+                <Card.Text>
+                  Trabajo de e-commerce realizado en primera instancia como
+                  proyecto final del curso React JS en coderhouse. Luego
+                  retomado en el curso de Backend en coderhouse, agregándole
+                  inicio de sesión, permisos para administrador, funcionalidad
+                  con API REST propia, chat en vivo, proceso de compra completo.
+                  Sistema de envío de mails para tickets y notificaciones, etc.
+                </Card.Text>
+              </Navbar.Collapse>
+            </Navbar>
+          </Card.Body>
+          <ButtonGroup>
+            <Link
+              className="link"
+              to="https://github.com/MarianaPadelin/ProyectoFinalFrontend.git"
+              target="_blank"
+            >
+              <Button variant="light">Ver el código de frontend</Button>
+            </Link>
+            <Link
+              className="link"
+              to="https://github.com/MarianaPadelin/ProyectoFinalBackend.git"
+              target="_blank"
+            >
+              <Button variant="light">Ver el código de backend</Button>
+            </Link>
+          </ButtonGroup>
+        </Card>
+        {/*------ CODO A CODO ------ */}
+        <Card>
+          <Card.Img
+            variant="top"
+            src="https://res.cloudinary.com/dvxkjikvk/image/upload/v1725971201/screencapture-marianapadelin-github-io-bsas2-github-io-2024-09-10-09_25_44_akaowk.png"
+            title="CODO A CODO"
+          />
+          <Card.Body>
+            <Card.Title>PROYECTO FREELANCE FRONTEND- CODO A CODO </Card.Title>
+            <Navbar expand="xxxl" className="nv-bg navbar-dark cardtoggle">
+              <Navbar.Toggle aria-controls="basic-navbar-nav" />
+
+              <Navbar.Collapse id="basic-navbar-nav">
+                <Card.Text>
+                  Trabajo freelance realizado para la agencia CODO A CODO, del
+                  gobierno de la ciudad de buenos aires. Maquetación y
+                  desarrollo web responsive.
+                </Card.Text>
+              </Navbar.Collapse>
+            </Navbar>
+          </Card.Body>
+          <ButtonGroup>
+            <Link
+              className="link"
+              to="https://marianapadelin.github.io/bsas2.github.io/"
+              target="_blank"
+            >
+              <Button variant="light">Visitar la página</Button>
+            </Link>
+            <Link
+              className="link"
+              to="https://github.com/MarianaPadelin/bsas2.github.io"
+              target="_blank"
+            >
+              <Button variant="light">
+                Ver el código de la página
+              </Button>
+            </Link>
+          </ButtonGroup>
+        </Card>
+      </CardGroup>
 
       <ScrollToTop smooth />
     </div>

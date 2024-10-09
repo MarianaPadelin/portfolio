@@ -42,7 +42,7 @@ const Backend = () => {
           target="_blank"
           to="https://github.com/MarianaPadelin/ProyectoFinalBackend.git"
         >
-          <Button variant="secondary"> Repositorio del proyecto final</Button>
+          <Button variant="light"> Repositorio del proyecto final</Button>
         </Link>
       </div>
       <Link className="link"  to="../estudios">

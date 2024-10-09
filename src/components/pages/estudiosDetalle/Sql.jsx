@@ -32,7 +32,7 @@ const Sql = () => {
           target="_blank"
           to="https://drive.google.com/drive/folders/1G3Zi-Ervx7H_Ji2XDYbGMBP9ZI5vwl_H?usp=drive_link"
         >
-          <Button variant="secondary">
+          <Button variant="light">
             Carpeta con la base de datos del proyecto final
           </Button>
         </Link>

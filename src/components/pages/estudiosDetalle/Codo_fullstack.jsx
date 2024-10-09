@@ -27,14 +27,14 @@ const Codo_fullstack = () => {
           target="_blank"
           to="https://marianapadelin.github.io/bsas2.github.io/index.html"
         >
-          <Button variant="secondary"> Deploy del proyecto final</Button>
+          <Button variant="light"> Deploy del proyecto final</Button>
         </Link>
         <Link
           className="link"
           target="_blank"
           to="https://github.com/MarianaPadelin/bsas2.github.io.git"
         >
-          <Button variant="secondary"> Repositorio del proyecto final</Button>
+          <Button variant="light"> Repositorio del proyecto final</Button>
         </Link>
       </div>
       <Link className="link" to="../estudios">
