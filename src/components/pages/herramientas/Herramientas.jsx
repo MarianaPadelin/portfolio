@@ -131,6 +131,15 @@ const Herramientas = () => {
             </ListItemIcon>
             <ListItemText primary="Websockets" />
           </ListItem>
+          <ListItem>
+            <ListItemIcon>
+              <img
+                className="icono"
+                src="https://res.cloudinary.com/dvxkjikvk/image/upload/v1731791770/iconos%20tools/Learning-Apex-Salesforce_pv28tq.png"
+              />
+            </ListItemIcon>
+            <ListItemText primary="Salesforce APEX" />
+          </ListItem>
         </List>
         <Divider>
           <Chip label="DATABASE" variant="outlined" />
@@ -164,7 +173,7 @@ const Herramientas = () => {
             <ListItemText primary="MySQL" />
           </ListItem>
         </List>
-    
+
         <Divider>
           <Chip label="DEPLOYS" variant="outlined" />
         </Divider>

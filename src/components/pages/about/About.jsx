@@ -6,7 +6,6 @@ import ScrollToTop from "react-scroll-to-top";
 const About = () => {
   return (
     <div>
- 
       <div className="fondo">
         <div className="subtitle">
           <h1>
@@ -46,18 +45,24 @@ const About = () => {
             >
               <Button variant="light"> Ir a mi perfil de linkedin</Button>
             </Link>
+            <br /> 
+            <Link
+              to="https://www.salesforce.com/trailblazer/xaqss9vlrxj7dym4fq"
+              target="_blank"
+            >
+              <Button className="boton2" variant="light"> Ir a mi perfil de salesforce</Button>
+            </Link>
           </p>
           <Link
             className="cv"
-            to="https://drive.google.com/file/d/19kaODTMbjLnP91uq910mlqjlflQcyjd_/view?usp=sharing"
+            to="https://res.cloudinary.com/dvxkjikvk/image/upload/v1731792076/certificados/Cv_noviembre_2024_vytrqu.png"
             target="_blank"
           >
             <img
               className="imgcv"
-              src="https://res.cloudinary.com/dvxkjikvk/image/upload/v1721593925/certificados/CV_mayo_2024_nxvata.png"
+              src="https://res.cloudinary.com/dvxkjikvk/image/upload/v1731792076/certificados/Cv_noviembre_2024_vytrqu.png"
             />
           </Link>
-    
         </div>
       </div>
 
