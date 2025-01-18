@@ -2,12 +2,24 @@ import { Link } from "react-router-dom";
 import WhatsAppIcon from "@mui/icons-material/WhatsApp";
 import EmailOutlinedIcon from "@mui/icons-material/EmailOutlined";
 import "./Contacto.css"
+import { useContext } from "react";
+import { IdiomaContext } from "../../../context/IdiomaContext";
 
 const Contacto = () => {
+
+  const { idioma } = useContext(IdiomaContext)
   return (
     <div>
       <div className="presentacion">
-        <h1>Medios de contacto</h1>
+        {idioma ? (
+          <h1>
+            <i>MEDIOS DE CONTACTO</i>
+          </h1>
+        ) : (
+          <h1>
+            <i>CONTACT METHODS</i>
+          </h1>
+        )}
         <hr />
 
         <div className="medios">

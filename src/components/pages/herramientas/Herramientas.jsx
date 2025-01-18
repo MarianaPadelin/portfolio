@@ -9,14 +9,24 @@ import {
 } from "@mui/material";
 import "./Herramientas.css";
 import ScrollToTop from "react-scroll-to-top";
+import { useContext } from "react";
+import { IdiomaContext } from "../../../context/IdiomaContext";
 
 const Herramientas = () => {
+
+  const { idioma } = useContext(IdiomaContext)
   return (
     <div className="fondo">
       <div className="subtitle">
-        <i>
-          <h1>HERRAMIENTAS UTILIZADAS:</h1>
-        </i>
+        {idioma ? (
+          <h1>
+            <i>HERRAMIENTAS UTILIZADAS</i>
+          </h1>
+        ) : (
+          <h1>
+            <i>TOOLS USED</i>
+          </h1>
+        )}
       </div>
 
       <Box className="boxTools">

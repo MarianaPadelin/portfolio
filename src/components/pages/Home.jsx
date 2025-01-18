@@ -1,21 +1,23 @@
 import NavbarContainer from "../layouts/navbar/Navbar";
 import "./Home.css";
-import {
- 
-  Paper,
-} from "@mui/material";
+import { Paper } from "@mui/material";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import ArticleIcon from "@mui/icons-material/Article";
 import EmailIcon from "@mui/icons-material/Email";
 import WhatsAppIcon from "@mui/icons-material/WhatsApp";
 import { Link } from "react-router-dom";
+import NavbarENG from "../layouts/navbar/NavbarENG";
+import { useContext } from "react";
+import { IdiomaContext } from "../../context/IdiomaContext";
 
 const Home = () => {
+  const { idioma } = useContext(IdiomaContext);
   return (
     <div>
       <Paper elevation={10}>
-        <NavbarContainer />
+        {idioma ? <NavbarContainer /> : <NavbarENG />}
       </Paper>
+      
 
       <div className="presentacion">
         <h1>

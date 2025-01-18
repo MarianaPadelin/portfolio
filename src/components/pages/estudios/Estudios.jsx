@@ -1,11 +1,13 @@
 import { Link } from "react-router-dom"
 import "./Estudios.css"
 import ScrollToTop from "react-scroll-to-top";
-import { useState } from "react";
+import { useContext, useState } from "react";
 import Carousel from "react-bootstrap/Carousel";
+import { IdiomaContext } from "../../../context/IdiomaContext";
 // import ExampleCarouselImage from "components/ExampleCarouselImage";
 const Estudios = () => {
   const [index, setIndex] = useState(0);
+  const { idioma } = useContext(IdiomaContext)
 
   const handleSelect = (selectedIndex) => {
     setIndex(selectedIndex);
@@ -13,9 +15,16 @@ const Estudios = () => {
   return (
     <div className="estudios">
       <div className="subtitle">
-        <h1>
-          <i>CERTIFICADOS OBTENIDOS</i>
-        </h1>
+        {idioma ? (
+          <h1>
+            <i>CERTIFICADOS OBTENIDOS</i>
+          </h1>
+        ) : (
+          <h1>
+            <i>CERTIFICATES EARNED</i>
+          </h1>
+        )}
+       
       </div>
 
       <Carousel activeIndex={index} onSelect={handleSelect}>
@@ -86,6 +95,16 @@ const Estudios = () => {
               className="certificados"
               src="https://res.cloudinary.com/dvxkjikvk/image/upload/v1716303789/certificados/Captura_de_pantalla_2024-05-21_120236_tbm88z.png"
               alt="Seventh slide"
+            ></img>
+          </Link>
+        </Carousel.Item>
+        <Carousel.Item>
+          <Link className="linkCertificado" to="/salesforce">
+            <img
+              title="Ver más información"
+              className="certificados"
+              src="https://res.cloudinary.com/dvxkjikvk/image/upload/v1737242563/certificados/Captura_de_pantalla_2025-01-18_202225_fxq9mb.png"
+              alt="Eight slide"
             ></img>
           </Link>
         </Carousel.Item>

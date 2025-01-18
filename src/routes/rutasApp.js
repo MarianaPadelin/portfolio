@@ -11,6 +11,8 @@ import About from "../components/pages/about/About.jsx";
 import Herramientas from "../components/pages/herramientas/Herramientas.jsx";
 import Desarrollo from "../components/pages/estudiosDetalle/Desarrollo.jsx";
 import Coder_fullstack from "../components/pages/estudiosDetalle/Coder_fullstack.jsx";
+import Salesforce from "../components/pages/estudiosDetalle/Salesforce.jsx";
+
 
 export const rutasApp = [
   // {
@@ -77,5 +79,10 @@ export const rutasApp = [
     id: "fullstackCoder",
     path: "/fullstackCoder",
     Element: Coder_fullstack,
+  },
+  {
+    id: "salesforce",
+    path: "/salesforce",
+    Element: Salesforce,
   },
 ];

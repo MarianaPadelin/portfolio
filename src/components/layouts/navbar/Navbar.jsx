@@ -1,11 +1,16 @@
 import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
-// import NavDropdown from "react-bootstrap/NavDropdown";
 import "./Navbar.css"
 import { Link } from "react-router-dom";
-
+import { Button } from "@mui/material";
+import { useContext } from "react";
+import { IdiomaContext } from "../../../context/IdiomaContext";
+import { NavDropdown } from "react-bootstrap";
 function NavbarContainer() {
+
+    const { handleSpanish, handleEnglish } = useContext(IdiomaContext);
+  
   return (
     <Navbar expand="md" className="nv-bg">
       <Container className="navContainer">
@@ -37,16 +42,22 @@ function NavbarContainer() {
             <Link className="text navIt" to="/contacto">
               Contacto
             </Link>
-            {/* <img
-              className="icono"
-              src="https://res.cloudinary.com/dvxkjikvk/image/upload/v1716835609/iconos%20tools/pngwing.com_6_fio2zz.png"
-              title="Español"
-            />
-            <img
-              className="icono"
-              src="https://res.cloudinary.com/dvxkjikvk/image/upload/v1716835607/iconos%20tools/pngwing.com_7_wmfy4t.png"
-              title="English"
-            /> */}
+            <NavDropdown title="Idioma" className="text navIt" menuVariant="dark">
+              <Button onClick={handleSpanish}>
+                <img
+                  className="icono"
+                  src="https://res.cloudinary.com/dvxkjikvk/image/upload/v1716835609/iconos%20tools/pngwing.com_6_fio2zz.png"
+                  title="Español"
+                />
+              </Button>
+              <Button onClick={handleEnglish}>
+                <img
+                  className="icono"
+                  src="https://res.cloudinary.com/dvxkjikvk/image/upload/v1716835607/iconos%20tools/pngwing.com_7_wmfy4t.png"
+                  title="English"
+                />
+              </Button>
+            </NavDropdown>
           </Nav>
         </Navbar.Collapse>
       </Container>
