@@ -17,7 +17,7 @@ const Contacto = () => {
           </h1>
         ) : (
           <h1>
-            <i>CONTACT METHODS</i>
+            <i>MEANS OF CONTACT</i>
           </h1>
         )}
         <hr />

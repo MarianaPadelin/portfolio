@@ -1,33 +1,69 @@
 import { Link } from "react-router-dom";
 import "./EstudiosDetalle.css";
+import { useContext } from "react";
+import { IdiomaContext } from "../../../context/IdiomaContext";
 
 const Coder_fullstack = () => {
+  const { idioma } = useContext(IdiomaContext);
+
   return (
-    <div className="estudioDetalle">
-      <p className="textoDetalle">
-        Carrera que comprende los siguientes cursos (cada uno finalizado con la
-        mejor nota y dentro del top 10 de alumnos)
-      </p>
+    <>
+      {idioma ? (
+        <div className="estudioDetalle">
+          <p className="textoDetalle">
+            Carrera que comprende los siguientes cursos (cada uno finalizado con
+            la mejor nota y dentro del top 10 de alumnos)
+          </p>
 
-      <ul>
-        <li>
-          Desarrollo web - <a href="../webdevelopement">Ver contenido</a>
-        </li>
-        <li>
-          Javascript <a href="../javascript">Ver contenido</a>
-        </li>
-        <li>
-          React Js <a href="../react">Ver contenido</a>
-        </li>
-        <li>
-          Programación Backend <a href="../backend">Ver contenido</a>
-        </li>
-      </ul>
+          <ul>
+            <li>
+              Desarrollo web -{" "}
+              <Link to="../webdevelopement">Ver contenido</Link>
+            </li>
+            <li>
+              Javascript - <Link to="../javascript">Ver contenido</Link>
+            </li>
+            <li>
+              React Js - <Link to="../react">Ver contenido</Link>
+            </li>
+            <li>
+              Programación Backend - <Link to="../backend">Ver contenido</Link>
+            </li>
+          </ul>
 
-      <Link className="link" to="../estudios">
-        Volver al listado de certificaciones
-      </Link>
-    </div>
+          <Link className="link" to="../estudios">
+            Volver al listado de certificaciones
+          </Link>
+        </div>
+      ) : (
+        <div className="estudioDetalle">
+          <p className="textoDetalle">
+            Fullstack carreer that includes the following courses (each of them
+            finished with top marks and between the top 10 of students)
+          </p>
+
+          <ul>
+            <li>
+              Web development -{" "}
+              <Link to="../webdevelopement">View content</Link>
+            </li>
+            <li>
+              Javascript -<Link to="../javascript">View content</Link>
+            </li>
+            <li>
+              React Js - <Link to="../react">View content</Link>
+            </li>
+            <li>
+              Programación Backend - <Link to="../backend">View content</Link>
+            </li>
+          </ul>
+
+          <Link className="link" to="../estudios">
+            Go back to the certification&apos;s list
+          </Link>
+        </div>
+      )}
+    </>
   );
 };
 
