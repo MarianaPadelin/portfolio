@@ -218,7 +218,11 @@ const Herramientas = () => {
           </ListItem>
         </List>
         <Divider>
-          <Chip label="DOCUMENTACIÓN" variant="outlined" />
+          {idioma ? (
+            <Chip label="DOCUMENTACIÓN" variant="outlined" />
+          ) : (
+            <Chip label="DOCUMENTATION" variant="outlined" />
+          )}
         </Divider>
         <List className="lista">
           <ListItem>
@@ -232,7 +236,11 @@ const Herramientas = () => {
           </ListItem>
         </List>
         <Divider>
-          <Chip label="PLATAFORMAS DE PAGO" variant="outlined" />
+          {idioma ? (
+            <Chip label="PLATAFORMAS DE PAGO" variant="outlined" />
+          ) : (
+            <Chip label="PAYMENT GATEWAYS" variant="outlined" />
+          )}
         </Divider>
         <List className="lista">
           <ListItem>

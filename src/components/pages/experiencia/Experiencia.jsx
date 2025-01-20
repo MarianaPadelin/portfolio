@@ -5,13 +5,15 @@ import ScrollToTop from "react-scroll-to-top";
 import CardGroup from "react-bootstrap/CardGroup";
 import Card from "react-bootstrap/Card";
 import ButtonGroup from "react-bootstrap/ButtonGroup";
-
-// import ToggleButton from "@mui/material/ToggleButton";
-import Navbar from "react-bootstrap/Navbar";
-import { useContext } from "react";
+import { useContext, useState } from "react";
 import { IdiomaContext } from "../../../context/IdiomaContext";
 const Experiencia = () => {
   const { idioma } = useContext(IdiomaContext);
+  const [showInfo, setShowInfo] = useState(false);
+
+  const handleClick = () => {
+    setShowInfo(!showInfo)
+  }
 
   return (
     <div className="experiencia">
@@ -43,11 +45,13 @@ const Experiencia = () => {
                 FREELANCE PROJECT - UCHI JAPANESE HANDCRAFTED PRODUCTS
               </Card.Title>
             )}
-
-            <Navbar expand="xxxl" className="nv-bg navbar-dark cardtoggle">
-              <Navbar.Toggle aria-controls="basic-navbar-nav" />
-
-              <Navbar.Collapse id="basic-navbar-nav">
+            <div className="buttonDiv">
+              <Button variant="light" onClick={handleClick}>
+                Ver más
+              </Button>
+            </div>
+            {showInfo && (
+              <div>
                 {idioma ? (
                   <Card.Text>
                     Trabajo freelance de frontend realizado como única
@@ -68,8 +72,8 @@ const Experiencia = () => {
                     requests of our client, the owner of UCHI.
                   </Card.Text>
                 )}
-              </Navbar.Collapse>
-            </Navbar>
+              </div>
+            )}
           </Card.Body>
           {idioma ? (
             <ButtonGroup>
@@ -120,11 +124,13 @@ const Experiencia = () => {
             ) : (
               <Card.Title>E-COMMERCE FULLSTACK PROJECT - MGGM</Card.Title>
             )}
-
-            <Navbar expand="xxxl" className="nv-bg navbar-dark cardtoggle">
-              <Navbar.Toggle aria-controls="basic-navbar-nav" />
-
-              <Navbar.Collapse id="basic-navbar-nav">
+            <div className="buttonDiv">
+              <Button variant="light" onClick={handleClick}>
+                Ver más
+              </Button>
+            </div>
+            {showInfo && (
+              <div>
                 {idioma ? (
                   <Card.Text>
                     Trabajo de e-commerce realizado en primera instancia como
@@ -145,8 +151,8 @@ const Experiencia = () => {
                     email system to send tickets and notifications.
                   </Card.Text>
                 )}
-              </Navbar.Collapse>
-            </Navbar>
+              </div>
+            )}
           </Card.Body>
           {idioma ? (
             <ButtonGroup>
@@ -197,11 +203,14 @@ const Experiencia = () => {
             ) : (
               <Card.Title>FREELANCE PROJECT - CODO A CODO </Card.Title>
             )}
-
-            <Navbar expand="xxxl" className="nv-bg navbar-dark cardtoggle">
-              <Navbar.Toggle aria-controls="basic-navbar-nav" />
-
-              <Navbar.Collapse id="basic-navbar-nav">
+            <div className="buttonDiv">
+              <Button variant="light" onClick={handleClick}>
+                Ver más
+              </Button>
+            </div>
+            {showInfo && (
+              <div>
+                {" "}
                 {idioma ? (
                   <Card.Text>
                     Trabajo freelance realizado para la agencia CODO A CODO, del
@@ -210,13 +219,13 @@ const Experiencia = () => {
                   </Card.Text>
                 ) : (
                   <Card.Text>
-                    Freelance frontend project for the CODO A CODO agency, part of the
-                    government of the city of Buenos Aires. I was in charge of
-                    web page layout and responsive web developing.
+                    Freelance frontend project for the CODO A CODO agency, part
+                    of the government of the city of Buenos Aires. I was in
+                    charge of web page layout and responsive web developing.
                   </Card.Text>
                 )}
-              </Navbar.Collapse>
-            </Navbar>
+              </div>
+            )}
           </Card.Body>
           {idioma ? (
             <ButtonGroup>

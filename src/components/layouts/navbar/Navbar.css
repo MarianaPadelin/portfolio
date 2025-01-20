@@ -19,6 +19,9 @@
   transition: transform 0.5s;
 }
 
+button.navbar-toggler{
+  background: rgba(255, 255, 255, 0.6)
+}
 .navbar-expand-md{
   flex-wrap: wrap!important;
 }

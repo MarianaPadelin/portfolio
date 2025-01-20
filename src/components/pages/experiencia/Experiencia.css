@@ -35,6 +35,10 @@
   margin: 1vw;
   color: white;
 }
+.buttonDiv{
+  display: flex;
+  justify-content: center;
+}
 
 .btn-group {
   justify-content: center;

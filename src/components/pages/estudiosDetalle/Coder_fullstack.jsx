@@ -17,7 +17,7 @@ const Coder_fullstack = () => {
 
           <ul>
             <li>
-              Desarrollo web -{" "}
+              Desarrollo web -
               <Link to="../webdevelopement">Ver contenido</Link>
             </li>
             <li>
@@ -44,7 +44,7 @@ const Coder_fullstack = () => {
 
           <ul>
             <li>
-              Web development -{" "}
+              Web development -
               <Link to="../webdevelopement">View content</Link>
             </li>
             <li>
@@ -54,7 +54,7 @@ const Coder_fullstack = () => {
               React Js - <Link to="../react">View content</Link>
             </li>
             <li>
-              Programación Backend - <Link to="../backend">View content</Link>
+              Backend - <Link to="../backend">View content</Link>
             </li>
           </ul>
 
