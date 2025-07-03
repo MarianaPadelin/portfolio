@@ -12,6 +12,7 @@ import Herramientas from "../components/pages/herramientas/Herramientas.jsx";
 import Desarrollo from "../components/pages/estudiosDetalle/Desarrollo.jsx";
 import Coder_fullstack from "../components/pages/estudiosDetalle/Coder_fullstack.jsx";
 import Salesforce from "../components/pages/estudiosDetalle/Salesforce.jsx";
+import Language from "../components/pages/estudiosDetalle/Language.jsx";
 
 
 export const rutasApp = [
@@ -44,6 +45,11 @@ export const rutasApp = [
     id: "backend",
     path: "/backend",
     Element: Backend,
+  },
+  {
+    id: "language",
+    path: "/language",
+    Element: Language,
   },
   {
     id: "react",

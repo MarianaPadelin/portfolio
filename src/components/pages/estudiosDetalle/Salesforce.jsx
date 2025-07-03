@@ -79,7 +79,7 @@ const Salesforce = () => {
             </Link>
           </div>
           <Link className="link" to="../estudios">
-            Go back to the certification&apos;s list
+            Go back to the certifications list
           </Link>
         </div>
       )}

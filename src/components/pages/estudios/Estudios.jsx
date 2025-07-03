@@ -24,7 +24,6 @@ const Estudios = () => {
             <i>CERTIFICATES EARNED</i>
           </h1>
         )}
-       
       </div>
 
       <Carousel activeIndex={index} onSelect={handleSelect}>
@@ -35,6 +34,16 @@ const Estudios = () => {
               className="certificados"
               src="https://res.cloudinary.com/dvxkjikvk/image/upload/v1731790308/certificados/66fb2c7d4622b238595bbcbd_xej19f.png"
               alt="First slide"
+            />
+          </Link>
+        </Carousel.Item>
+        <Carousel.Item>
+          <Link className="linkCertificado" to="/language">
+            <img
+              title="Ver más información"
+              className="certificados"
+              src="https://res.cloudinary.com/dvxkjikvk/image/upload/v1751571651/certificados/Captura_de_pantalla_2025-07-03_164039_yct8jr.png"
+              alt="Language slide"
             />
           </Link>
         </Carousel.Item>
