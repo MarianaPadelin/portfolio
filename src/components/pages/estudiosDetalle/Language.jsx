@@ -2,6 +2,7 @@ import { Link } from "react-router-dom";
 import "./EstudiosDetalle.css";
 import { useContext } from "react";
 import { IdiomaContext } from "../../../context/IdiomaContext";
+import { Button } from "react-bootstrap";
 
 const Language = () => {
     const { idioma } = useContext(IdiomaContext);
@@ -30,12 +31,17 @@ const Language = () => {
             Certificate issued by goFLUENT in March 2025 attesting to a C1 level
             of English proficiency
           </p>
-          <a
-            href="https://res.cloudinary.com/dvxkjikvk/image/upload/v1751572034/certificados/Mariana_Padelin_Certificate_of_Language_Proficiency_full_version_vlmgei.pdf"
-            target="_blank"
-          >
-            See the detailed report of competences
-          </a>
+          <div className="botonesProyectos">
+            <Link
+              className="link"
+              target="_blank"
+              to="https://res.cloudinary.com/dvxkjikvk/image/upload/v1751572034/certificados/Mariana_Padelin_Certificate_of_Language_Proficiency_full_version_vlmgei.pdf"
+            >
+              <Button variant="light">
+                View the detailed report of competences
+              </Button>
+            </Link>
+          </div>
           <Link className="link" to="../estudios">
             Go back to the certifications list
           </Link>
